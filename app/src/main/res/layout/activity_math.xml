@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MathActivity">
 
+    <Button
+        android:id="@+id/button_mathactivity_formulas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formulas"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/button_mathactivity_solver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solver"
+        app:layout_constraintBottom_toTopOf="@+id/button_mathactivity_formulas" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
